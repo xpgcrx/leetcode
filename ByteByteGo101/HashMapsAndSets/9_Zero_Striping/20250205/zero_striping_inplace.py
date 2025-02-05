@@ -1,6 +1,10 @@
 from typing import List
 
+# https://bytebytego.com/exercises/coding-patterns/hash-maps-and-sets/zero-striping
 
+
+# Time: O(m) + O(n) + O(mn) = O(mn)
+# Space: O(1)
 def zero_striping(matrix: List[List[int]]) -> None:
     if not matrix or not matrix[0]:
         return
