@@ -1,6 +1,8 @@
 from typing import List
 
 
+# Time: O(mn)
+# Space: O(m + n)
 def zero_striping(matrix: List[List[int]]) -> None:
     if not matrix:
         return
