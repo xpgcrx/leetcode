@@ -2,7 +2,7 @@ from typing import List
 
 
 # Time: O(n^3)
-# Space: O(n^3)
+# Space: O(n^2)
 def triplet_sum(nums: List[int]) -> List[List[int]]:
     nums.sort()
     l = len(nums)
